@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/challenge100dayscss/static/css/main.073c9b0a.css",
+    "main.js": "/challenge100dayscss/static/js/main.54de22ed.js",
+    "static/js/787.55f2900c.chunk.js": "/challenge100dayscss/static/js/787.55f2900c.chunk.js",
+    "static/media/logo.svg": "/challenge100dayscss/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/challenge100dayscss/index.html",
+    "main.073c9b0a.css.map": "/challenge100dayscss/static/css/main.073c9b0a.css.map",
+    "main.54de22ed.js.map": "/challenge100dayscss/static/js/main.54de22ed.js.map",
+    "787.55f2900c.chunk.js.map": "/challenge100dayscss/static/js/787.55f2900c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.54de22ed.js"
+  ]
+}
