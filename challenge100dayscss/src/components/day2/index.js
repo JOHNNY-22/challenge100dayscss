@@ -1,6 +1,7 @@
 import './index.css'
 function day2() {
-    let isMenuOpen = false;
+	/**
+	 * let isMenuOpen = false;
 	const menuItem = document.querySelector('.menu-item');
 	menuItem.addEventListener('click', () => {
  		isMenuOpen = !isMenuOpen; 
@@ -12,6 +13,7 @@ function day2() {
 		menuItem.classList.remove('open');
 		}
 	});
+	 */
 return (
     <div class="frame">
   <div class="center">
@@ -22,6 +24,6 @@ return (
 		</div>
   </div>
 </div>
-)
+);
 }
 export default day2;

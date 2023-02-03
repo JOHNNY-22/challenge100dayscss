@@ -1,0 +1,98 @@
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+  overflow: hidden;
+  background: #E56262;
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.bigcircle {
+	index: 1;
+	height: 90px;
+	width: 90px;
+	background: white;
+	border-radius: 50%;
+	animation: animationbigcircle 6s infinite linear;
+}
+
+.midcircle {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	height: 60px;
+	width: 60px;
+	background: white;
+	border-radius: 50%;
+	animation: animationmidcircle 6s infinite linear;
+}
+
+.smallcircle {
+	position: absolute;
+	top:15px;
+	left:15px;
+	height: 30px;
+	width: 30px;
+	box-shadow:  teal;
+	background: white;
+	border-radius: 50%;
+	animation: animationsmallcircle 6s infinite linear;
+}
+
+
+@keyframes animationbigcircle {
+	0%{
+		transform: scale(0);
+	}
+	20%, 75%{
+		transform: scale(1);
+		box-shadow: 10px 10px 15px 0 rgba(0,0,0,0.3);
+		}
+	100% {
+		transform: scale(0);
+	}
+}
+
+@keyframes animationmidcircle{
+	0%,15%{
+		transform: scale(0);
+	}
+	15%, 80%{
+		transform: scale(1);
+		box-shadow: 10px 10px 15px 0 rgba(0,0,0,0.3);
+		}
+	85%,100% {
+		transform: scale(0);
+	}
+}
+
+	@keyframes animationsmallcircle{
+	0%,20%{
+		transform: scale(0);
+		}
+	25%, 75%{
+		transform: scale(1);
+		box-shadow: 10px 10px 15px 0 rgba(0,0,0,0.3);
+		}
+	80%, 100% {
+		transform: scale(0);
+	}
+}
+
