@@ -1,38 +1,71 @@
+.next {
+background: black;
+width: 20px;
+height:20px;
+}
 .App {
-  text-align: center;
+    display: block;
+}
+.lista {
+    border: 2px solid color;
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+    gap: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+li{
+    background: #F1889F;
+    color: white;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    border: 2px solid pink;
+    border-radius: 50%;
+}
+.buttonList {
+    display: flex;
+    justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.day {
+gap: 50px;
+display: flex;
+justify-content: center;
+height:500px;   
+
+}
+
+.arrow{
+   
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    
+    margin-top: 14px;
+    margin-left: 20px;
+}
+
+.arrowreverse{
+    transform: scaleX(-1);
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 14px;
+    margin-right: 20px;
+}
+
+.imgNextReverse{
+  margin-top: 100px;
+  height: 200px;
+  width:200px;
+  transform: scaleX(-1);
+  cursor: pointer;
+}
+
+.imgNext{
+    cursor: pointer;
+    margin-top: 100px;
+    height: 200px;
+    width:200px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
