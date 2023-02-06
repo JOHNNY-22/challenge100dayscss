@@ -15,11 +15,11 @@ height:20px;
 }
 
 li{
-    background: #F1889F;
+    background: purple;
     color: white;
     text-align: center;
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     border: 2px solid pink;
     border-radius: 50%;
 }

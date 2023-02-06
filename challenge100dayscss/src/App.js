@@ -19,11 +19,11 @@ function App() {
   
 
 function addNumber() {
-  numberpage == 90? setnumberPage(1): setnumberPage(numberpage+10);
+  numberpage == 91? setnumberPage(1): setnumberPage(numberpage+10);
 }
 
 function decrementNumber() {
-  numberpage == 1? setnumberPage(90): setnumberPage(numberpage-10);
+  numberpage == 1? setnumberPage(91): setnumberPage(numberpage-10);
 }
   return (
     <div className="App">
